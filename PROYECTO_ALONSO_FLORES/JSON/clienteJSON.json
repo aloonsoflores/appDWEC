@@ -1,0 +1,101 @@
+[
+  {
+    "idCliente": 1,
+    "nombre": "John",
+    "apellidos": "Doe",
+    "direccion": "Avenida del Sol, 456",
+    "correo": "johndoe@example.com",
+    "telefono": 612345678,
+    "contrasena": "aR5!pXb2#q"
+  },
+  {
+    "idCliente": 2,
+    "nombre": "Jane",
+    "apellidos": "Smith",
+    "direccion": "Calle de la Luna, 123",
+    "correo": "janesmith@example.com",
+    "telefono": "677890123",
+    "contrasena": "9Lz@jYh6oX"
+  },
+  {
+    "idCliente": 3,
+    "nombre": "Michael",
+    "apellidos": "Johnson",
+    "direccion": "Paseo de las Flores, 789",
+    "correo": "michaeljohnson@example.com",
+    "telefono": 655432109,
+    "contrasena": "3sF*rPv7qZ"
+  },
+  {
+    "idCliente": 4,
+    "nombre": "Emily",
+    "apellidos": "Williams",
+    "direccion": "Plaza de la Fuente, 210",
+    "correo": "emilywilliams@example.com",
+    "telefono": 688765432,
+    "contrasena": "K2t@uW8yHv"
+  },
+  {
+    "idCliente": 5,
+    "nombre": "Daniel",
+    "apellidos": "Brown",
+    "direccion": "Carrera del Mar, 543",
+    "correo": "danielbrown@example.com",
+    "telefono": 644321098,
+    "contrasena": "bJ6#oT1mYx"
+  },
+  {
+    "idCliente": 6,
+    "nombre": "Sophia",
+    "apellidos": "Jones",
+    "direccion": "Camino del Bosque, 876",
+    "correo": "sophiajones@example.com",
+    "telefono": "666999888",
+    "contrasena": "G4n$wU9kRq"
+  },
+  {
+    "idCliente": 7,
+    "nombre": "David",
+    "apellidos": "Davis",
+    "direccion": "Callej\u00f3n de las Estrellas, 132",
+    "correo": "daviddavis@example.com",
+    "telefono": 633444555,
+    "contrasena": "5c@vM2pB8W"
+  },
+  {
+    "idCliente": 8,
+    "nombre": "Olivia",
+    "apellidos": "Taylor",
+    "direccion": "Avenida del R\u00edo, 465",
+    "correo": "oliviataylor@example.com",
+    "telefono": 611777222,
+    "contrasena": "dA3%zQ7fP2"
+  },
+  {
+    "idCliente": 9,
+    "nombre": "James",
+    "apellidos": "William",
+    "direccion": "Plaza de la Monta\u00f1a, 798",
+    "correo": "jamesanderson@example.com",
+    "telefono": "655888111",
+    "contrasena": "I1y#oU6sN9"
+  },
+  {
+    "idCliente": 10,
+    "nombre": "Isabella",
+    "apellidos": "Martin",
+    "direccion": "Carrer de la Palmera, 354",
+    "correo": "isabellamartin@example.com",
+    "telefono": 622333444,
+    "contrasena": "X8h*6qRzYv"
+  },
+  {
+    "idCliente": 11,
+    "nombre": "Alonso",
+    "apellidos": "",
+    "direccion": "",
+    "correo": "alonso@gmail.com",
+    "telefono": "",
+    "contrasena": "1234"
+  }
+]

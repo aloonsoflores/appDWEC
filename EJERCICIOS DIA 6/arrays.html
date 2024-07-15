@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="arrays.js"></script>
+    <style type="text/css">
+        body {
+            font-family:sans-serif;
+           background-color: lightyellow;
+            }
+        h1 {
+           border-bottom: #FFCC66 5px solid;
+            text-align: center;
+            }
+        p {
+            color:#660000;
+            border: #FF9933 10px solid;
+            border-width: 0 0 2px 2px;
+            }
+        p.derecha {
+            text-align: right;
+            border-width: 0 2px 2px 0;
+            }
+        #Pepe {
+            color: red;
+            border-width: 0;
+            }
+        .destacado {
+            color: white;
+            background-color: red;
+            }
+        p.destacado span.destacado {
+            color: red;
+            background-color: white;
+            }
+        div {
+            display:inline-block;
+        }
+      </style>
+</head>
+<body>
+    <p>
+        <label for="grupo">Grupo/Cantante</label>
+        <input type="text" name="grupo" id="grupo">
+        <label for="pais">Pais</label>
+        <input type="text" name="pais" id="pais">
+        <label for="tipo">Tipo</label>
+        <input type="text" name="tipo" id="tipo">
+    </p>
+    <p>
+        <button type="button" onclick="anadir()">Añadir</button>
+        <button type="button" onclick="eliminarUlt()">Eliminar ultimo</button>
+        <button type="button" onclick="eliminarPri()">Eliminar primero</button>
+        <button type="button" onclick="eliminar()">Eliminar</button><br>
+        <button type="button" onclick="ordenarPorNombreDes()">Ordenar descendente (Nombre)</button>
+        <button type="button" onclick="ordenarPorNombreAsc()">Ordenar ascendente (Nombre)</button><br>
+        <button type="button" onclick="ordenarPorPaisDes()">Ordenar descendente (Pais)</button>
+        <button type="button" onclick="ordenarPorPaisAsc()">Ordenar ascendente (Pais)</button><br>
+        <button type="button" onclick="ordenarPorTipoDes()">Ordenar descendente (Tipo)</button>
+        <button type="button" onclick="ordenarPorTipoAsc()">Ordenar ascendente (Tipo)</button><br>
+        <button type="button" onclick="mostrarEspanoles()">Mostrar español</button>
+        <button type="button" onclick="mostrarTresPrimeros()">Mostrar tres primeros</button>
+        <button type="button" onclick="mostrarDosPrimerosEspanoles()">Mostrar dos primeros ESP</button>
+        <button type="button" onclick="mostrarPrimerEspanolAlf()">Mostrar primer ESP por orden alf</button><br>
+        <button type="button" onclick="emitirFactura()">Emitir factura</button>
+        <button type="button" onclick="incrementarVentas()">Incrementar ventas</button>
+    </p>
+    <p>
+        <label for="playlist">Playlist: </label>
+        <select name="playlist" id="playlist">
+
+        </select>
+    </p>
+    <script>
+        var listaParrafos=document.getElementsByTagName("p");
+        console.log(listaParrafos.length);
+        console.log(listaParrafos[0].innerHTML);
+        var lista2=[...listaParrafos];
+        lista2.sort();
+        console.log(lista2);
+        var lista3=lista2.concat();
+        lista3.pop();
+        console.log(lista3);
+    </script>
+</body>
+</html>

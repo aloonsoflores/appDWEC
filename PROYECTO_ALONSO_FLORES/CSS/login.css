@@ -1,0 +1,189 @@
+/* Paleta de colores */
+:root {
+  --puerto-rico-50: #f1fcf8;
+  --puerto-rico-100: #d0f7eb;
+  --puerto-rico-200: #a1eed8;
+  --puerto-rico-300: #69dfc1;
+  --puerto-rico-400: #4bcbaf;
+  --puerto-rico-500: #21ab8e;
+  --puerto-rico-600: #188974;
+  --puerto-rico-700: #176e5f;
+  --puerto-rico-800: #17584e;
+  --puerto-rico-900: #184941;
+  --puerto-rico-950: #082b28;
+}
+
+/* Reset de estilos y estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans";
+  background-color: var(--puerto-rico-50);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Contenedor de la página de inicio de sesión */
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+/* Logo */
+.logo-480 img {
+  position: relative;
+  top: -40px;
+  margin-bottom: 10px;
+  max-width: 240px;
+}
+
+.logo-480 a {
+  text-decoration: none;
+}
+
+.logo-480 h2 {
+  position: relative;
+  top: -80px;
+  margin-bottom: -50px;
+  font-weight: bold;
+  color: var(--puerto-rico-900);
+}
+
+/* Formulario */
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para campos de entrada */
+.input-flotante {
+  position: relative;
+  line-height: 14px;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.input-flotante label {
+  color: var(--puerto-rico-900);
+  font-size: 11px;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 2;
+  left: 20px;
+  top: -6px;
+  padding: 0 2px;
+  background-color: #ffffff;
+  transition: transform 0.2s ease;
+}
+
+.input-flotante input {
+  font-size: 13px;
+  color: var(--puerto-rico-900);
+  background-color: transparent;
+  outline: none;
+  width: 240px;
+  border: 1px solid var(--puerto-rico-900);
+  padding: 12px;
+  margin: 0 0 15px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.input-flotante input:focus {
+  border-color: var(--puerto-rico-500);
+}
+
+.input-flotante input:focus + label {
+  color: var(--puerto-rico-900);
+}
+
+/* Estilos para el botón */
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: var(--puerto-rico-900);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Estilos para el botón cuando se interactúa */
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: var(--puerto-rico-500);
+}
+
+/* Estilos para los mensajes y enlaces */
+.form .message-register,
+.form .message-login {
+  margin: 20px 0 -10px;
+  color: var(--puerto-rico-900);
+  font-size: 12px;
+}
+
+.form .message-register a,
+.form .message-login a {
+  color: var(--puerto-rico-500);
+  text-decoration: none;
+}
+
+/* Estilos para el formulario de registro */
+.form .register-form {
+  display: none;
+}
+
+/* Estilos para la parte inferior del formulario */
+.form .login-bottom {
+  color: var(--puerto-rico-900);
+  font-size: 12px;
+}
+
+.login-bottom input[type="checkbox"] {
+  width: auto;
+  margin: 15px 0 0;
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+}
+
+.form .login-bottom a {
+  color: var(--puerto-rico-500);
+  text-decoration: none;
+}
+
+.correo-existente {
+  display: none;
+  color: red;
+  font-size: 12px;
+  padding-bottom: 16px;
+}
+
+.campos-vacios {
+  display: none;
+  color: red;
+  font-size: 12px;
+  padding-bottom: 16px;
+}
+
+.login-error {
+  display: none;
+  color: red;
+  font-size: 12px;
+  padding-bottom: 16px;
+}
